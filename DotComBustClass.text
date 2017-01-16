@@ -1,0 +1,15 @@
+DotComBust Class
+
+Objective:
+-> Create three dot coms.
+-> Give each of the three dot coms a name.
+-> Put Dot Coms on the grid.
+-> Check each users guess with all three Dot Coms
+-> Keep playing the game untill there are no more live Dot Coms
+-> Get out of the main.
+
+Methods:
+1) Set Up Game
+2) Start Playing
+3) Check User Guess
+4) Finish Game
