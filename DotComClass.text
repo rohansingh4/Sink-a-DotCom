@@ -1,0 +1,8 @@
+DotComClass
+
+Objective: 
+->Add a name variable. It will hold the name of the DotCom ("pets.com". "dog.com", etc). So each DotCom can print its name when it's killed.
+
+Methods:
+->setLocationCells
+->checkYourself

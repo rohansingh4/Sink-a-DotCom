@@ -46,10 +46,11 @@ public class DotComBust
 
 	private void checkUserGuess(String userGuess)
 	{
-		numOfGuesses++;
-		String result = "miss";
+		numOfGuesses++;    //increments from 0
+		String result = "miss";  //assumes it's a 'miss', unless told otherwise
 		for (DotCom dotComToTest : dotComsList)
-		{
+		{	
+			//Looking for hit or kill
 			result = dotComToTest.checkYourself(userGuess);
 			if(result.equals("hit"))
 			{
@@ -58,11 +59,12 @@ public class DotComBust
 			if(result.equals("kill"))
 			{
 				dotComsList.remove(dotComToTest);
+				break;
 			}
 		}
 		System.out.println(result);
 	}
-
+		//Tells user how he performed in the game.
 		private void finishGame()
 		{
 			System.out.println("All Dot Coms are dead! Your stock is now worthless.");
