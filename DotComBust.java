@@ -83,6 +83,6 @@ public class DotComBust
 		{
 			DotComBust game = new DotComBust(); //create the game object
 			game.setUpGame();    //game object to set up the game
-			game.startPlaying);   //game object to start play loop and keep playing
+			game.startPlaying();   //game object to start play loop and keep playing
 		}
 }
