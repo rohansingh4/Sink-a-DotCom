@@ -7,7 +7,7 @@ public class DotComBust
 	private ArrayList<DotCom> dotComsList = new ArrayList<DotCom>();
 	private int numOfGuesses = 0;
 
-	private void setUpGame();
+	private void setUpGame()
 	{	
 		//Declaring three DotCom objects and assigning them a name
 		DotCom one = new DotCom();
